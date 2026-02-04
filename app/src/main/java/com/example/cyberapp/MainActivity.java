@@ -1,6 +1,11 @@
 package com.example.cyberapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +25,33 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void buttonClick(View v)
+    {
+        Intent intent;
+
+        switch (v.getId()) {
+            case R.id.AdvQuiz:
+                intent = new Intent(this, AdvancedQuizzesHome.class);
+                break;
+
+            case R.id.BegQuiz:
+                intent = new Intent(this, BeginnerQuizzesHome.class);
+                break;
+
+            case R.id.InterQuiz:
+                intent = new Intent(this, IntermediateQuizzesHome.class);
+                break;
+
+            default:
+                intent = new Intent(this, SecondActivityHome.class);
+        }
+
+        startActivity(intent);
+
+
+
+
     }
 }
