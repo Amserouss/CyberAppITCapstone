@@ -27,31 +27,30 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void buttonClick(View v)
-    {
-        Intent intent;
+    public void buttonClick(View v) {
+        Intent intent = null;
 
-        switch (v.getId()) {
-            case R.id.AdvQuiz:
-                intent = new Intent(this, AdvancedQuizzesHome.class);
-                break;
+        int id = v.getId();
 
-            case R.id.BegQuiz:
-                intent = new Intent(this, BeginnerQuizzesHome.class);
-                break;
+        if (id == R.id.AdvQuiz) {
+            intent = new Intent(this, advancedHome.class);
 
-            case R.id.InterQuiz:
-                intent = new Intent(this, IntermediateQuizzesHome.class);
-                break;
+        } else if (id == R.id.BegQuiz) {
+            intent = new Intent(this, beginnerHome.class);
 
-            default:
-                intent = new Intent(this, SecondActivityHome.class);
+        } else if (id == R.id.InterQuiz) {
+            intent = new Intent(this, intermediateHome.class);
+
+        } else if (id == R.id.PreTest) {
+            intent = new Intent(this, preTestHome.class);
+
+        } else {
+            intent = new Intent(this, errorPage.class);
         }
 
         startActivity(intent);
-
-
-
-
     }
+//
+
+
 }
