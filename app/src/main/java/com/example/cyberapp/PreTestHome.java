@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 import java.util.ArrayList;
 
-public class preTestHome extends AppCompatActivity {
+public class PreTestHome extends AppCompatActivity {
     private TextView questionText, questionCounter;
     private RadioGroup radioGroup;
     private RadioButton answer1, answer2, answer3;

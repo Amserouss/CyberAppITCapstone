@@ -3,9 +3,6 @@ package com.example.cyberapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,19 +30,19 @@ public class MainActivity extends AppCompatActivity {
         int id = v.getId();
 
         if (id == R.id.AdvQuiz) {
-            intent = new Intent(this, advancedHome.class);
+            intent = new Intent(this, AdvancedHome.class);
 
         } else if (id == R.id.BegQuiz) {
-            intent = new Intent(this, beginnerHome.class);
+            intent = new Intent(this, BeginnerHome.class);
 
         } else if (id == R.id.InterQuiz) {
-            intent = new Intent(this, intermediateHome.class);
+            intent = new Intent(this, IntermediateHome.class);
 
         } else if (id == R.id.PreTest) {
-            intent = new Intent(this, preTestHome.class);
+            intent = new Intent(this, PreTestHome.class);
 
         } else {
-            intent = new Intent(this, errorPage.class);
+            intent = new Intent(this, ErrorPage.class);
         }
 
         startActivity(intent);

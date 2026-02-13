@@ -13,6 +13,7 @@
         android:theme="@style/Theme.CyberApp">
         <activity
             android:name=".MainActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PreTestHome" />
+        <activity android:name=".BeginnerHome" />
+        <activity android:name=".IntermediateHome" />
+        <activity android:name=".AdvancedHome" />
+        <activity android:name=".ErrorPage" />
+
+
     </application>
 
 </manifest>

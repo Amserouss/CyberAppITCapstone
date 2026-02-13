@@ -1,6 +1,9 @@
 package com.example.cyberapp;
 
-public class QuizQuestionLogic {
+import androidx.appcompat.app.AppCompatActivity;
+
+
+public class QuizQuestionLogic extends AppCompatActivity {
 
     private String questionText;
     private String[] answers;
