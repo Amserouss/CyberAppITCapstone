@@ -2,7 +2,51 @@
 <resources>
     <!--  beginner_home Strings  -->
 
+    <string name="beginnerTitle">Beginner Quizzes</string>
     <!--    -->
+
+    <string name="webQuizTitle">Online Safety</string>
+    <!--Strings related to beginner web quiz -->
+    <string name="begWeb_question_1"> </string>
+    <string name="begWeb_question_2"> </string>
+    <string name="begWeb_question_3"> </string>
+    <string name="begWeb_question_4"> </string>
+    <string name="begWeb_question_5"> </string>
+
+    <string name="begWebQ1A1Answer"> </string>
+    <string name="begWebQ1A2Answer"> </string>
+    <string name="begWebQ1A3Answer"> </string>
+
+    <string name="begWebQ2A1Answer"> </string>
+    <string name="begWebQ2A2Answer"> </string>
+    <string name="begWebQ2A3Answer"> </string>
+
+    <string name="begWebQ3A1Answer"> </string>
+    <string name="begWebQ3A2Answer"> </string>
+    <string name="begWebQ3A3Answer"> </string>
+
+    <string name="begWebQ4A1Answer"> </string>
+    <string name="begWebQ4A2Answer"> </string>
+    <string name="begWebQ4A3Answer"> </string>
+
+    <string name="begWebQ5A1Answer"> </string>
+    <string name="begWebQ5A2Answer"> </string>
+    <string name="begWebQ5A3Answer"> </string>
+
+
+
+    <string name="deviceQuizTitle">Device Safety</string>
+
+    <string name="cyberSecQuizTitle">Cyber Security</string>
+
+<!--    <string name=" "> </string>-->
+
+<!--    <string name=" "> </string>-->
+
+    <string name="returnButtonText">Return to Home</string>
+
+
+
 
     <!--    -->
 
