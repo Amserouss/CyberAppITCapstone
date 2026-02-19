@@ -31,12 +31,13 @@ public class PreTestHome extends AppCompatActivity {
 
         questions = new ArrayList<>();
 
+        // determine order for correct answer in each question
         questions.add(new QuizQuestionLogic(
                 getString(R.string.pretest_question_1),
                 new String[]{
-                        getString(R.string.Q1A1Answer),
-                        getString(R.string.Q1A2Answer),
-                        getString(R.string.Q1A3Answer)
+                        getString(R.string.preQ1A1Answer),
+                        getString(R.string.preQ1A2Answer),
+                        getString(R.string.preQ1A3Answer)
                 },
                 0 // correct answer index
         ));
@@ -44,12 +45,143 @@ public class PreTestHome extends AppCompatActivity {
         questions.add(new QuizQuestionLogic(
                 getString(R.string.pretest_question_2),
                 new String[]{
-                        getString(R.string.Q2A1Answer),
-                        getString(R.string.Q2A2Answer),
-                        getString(R.string.Q2A3Answer)
+                        getString(R.string.preQ2A1Answer),
+                        getString(R.string.preQ2A2Answer),
+                        getString(R.string.preQ2A3Answer)
                 },
                 1
         ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_3),
+                new String[]{
+                        getString(R.string.preQ3A1Answer),
+                        getString(R.string.preQ3A2Answer),
+                        getString(R.string.preQ3A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_4),
+                new String[]{
+                        getString(R.string.preQ4A1Answer),
+                        getString(R.string.preQ4A2Answer),
+                        getString(R.string.preQ4A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_5),
+                new String[]{
+                        getString(R.string.preQ5A2Answer),
+                        getString(R.string.preQ5A3Answer),
+                        getString(R.string.preQ5A1Answer),
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_6),
+                new String[]{
+                        getString(R.string.preQ6A1Answer),
+                        getString(R.string.preQ6A2Answer),
+                        getString(R.string.preQ6A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_7),
+                new String[]{
+                        getString(R.string.preQ7A1Answer),
+                        getString(R.string.preQ7A2Answer),
+                        getString(R.string.preQ7A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_8),
+                new String[]{
+                        getString(R.string.preQ8A1Answer),
+                        getString(R.string.preQ8A2Answer),
+                        getString(R.string.preQ8A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_9),
+                new String[]{
+                        getString(R.string.preQ9A1Answer),
+                        getString(R.string.preQ9A2Answer),
+                        getString(R.string.preQ9A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_10),
+                new String[]{
+                        getString(R.string.preQ10A1Answer),
+                        getString(R.string.preQ10A2Answer),
+                        getString(R.string.preQ10A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_11),
+                new String[]{
+                        getString(R.string.preQ11A1Answer),
+                        getString(R.string.preQ11A2Answer),
+                        getString(R.string.preQ11A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_12),
+                new String[]{
+                        getString(R.string.preQ12A1Answer),
+                        getString(R.string.preQ12A2Answer),
+                        getString(R.string.preQ12A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_13),
+                new String[]{
+                        getString(R.string.preQ13A1Answer),
+                        getString(R.string.preQ13A2Answer),
+                        getString(R.string.preQ13A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_14),
+                new String[]{
+                        getString(R.string.preQ14A1Answer),
+                        getString(R.string.preQ14A2Answer),
+                        getString(R.string.preQ14A3Answer)
+                },
+                1
+        ));
+
+        questions.add(new QuizQuestionLogic(
+                getString(R.string.pretest_question_15),
+                new String[]{
+                        getString(R.string.preQ15A1Answer),
+                        getString(R.string.preQ15A2Answer),
+                        getString(R.string.preQ15A3Answer)
+                },
+                1
+        ));
+
 
 // add remaining questions
         loadQuestion(currentIndex);//determine where this goes and update

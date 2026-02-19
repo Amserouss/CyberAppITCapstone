@@ -6,79 +6,79 @@
     <!-- pretest_home Strings   -->
     <string name="skill_pre_test">Skill Pre-Test</string>
     <string name="pretest_question_1">Question 1 - ()</string>
-    <string name="Q1A1Answer">()</string>
-    <string name="Q1A2Answer">()</string>
-    <string name="Q1A3Answer">()</string>
+    <string name="preQ1A1Answer">()</string>
+    <string name="preQ1A2Answer">()</string>
+    <string name="preQ1A3Answer">()</string>
 
     <string name="pretest_question_2">Question 2 - ()</string>
-    <string name="Q2A1Answer">()</string>
-    <string name="Q2A2Answer">()</string>
-    <string name="Q2A3Answer">()</string>
+    <string name="preQ2A1Answer">()</string>
+    <string name="preQ2A2Answer">()</string>
+    <string name="preQ2A3Answer">()</string>
 
     <string name="pretest_question_3">Question 3 - ()</string>
-    <string name="Q3A1Answer">()</string>
-    <string name="Q3A2Answer">()</string>
-    <string name="Q3A3Answer">()</string>
+    <string name="preQ3A1Answer">()</string>
+    <string name="preQ3A2Answer">()</string>
+    <string name="preQ3A3Answer">()</string>
 
     <string name="pretest_question_4">Question 4 - ()</string>
-    <string name="Q4A1Answer">()</string>
-    <string name="Q4A2Answer">()</string>
-    <string name="Q4A3Answer">()</string>
+    <string name="preQ4A1Answer">()</string>
+    <string name="preQ4A2Answer">()</string>
+    <string name="preQ4A3Answer">()</string>
 
     <string name="pretest_question_5">Question 5 - ()</string>
-    <string name="Q5A1Answer">()</string>
-    <string name="Q5A2Answer">()</string>
-    <string name="Q5A3Answer">()</string>
+    <string name="preQ5A1Answer">()</string>
+    <string name="preQ5A2Answer">()</string>
+    <string name="preQ5A3Answer">()</string>
 
     <string name="pretest_question_6">Question 6 - ()</string>
-    <string name="Q6A1Answer">()</string>
-    <string name="Q6A2Answer">()</string>
-    <string name="Q6A3Answer">()</string>
+    <string name="preQ6A1Answer">()</string>
+    <string name="preQ6A2Answer">()</string>
+    <string name="preQ6A3Answer">()</string>
 
     <string name="pretest_question_7">Question 7 - ()</string>
-    <string name="Q7A1Answer">()</string>
-    <string name="Q7A2Answer">()</string>
-    <string name="Q7A3Answer">()</string>
+    <string name="preQ7A1Answer">()</string>
+    <string name="preQ7A2Answer">()</string>
+    <string name="preQ7A3Answer">()</string>
 
     <string name="pretest_question_8">Question 8 - ()</string>
-    <string name="Q8A1Answer">()</string>
-    <string name="Q8A2Answer">()</string>
-    <string name="Q8A3Answer">()</string>
+    <string name="preQ8A1Answer">()</string>
+    <string name="preQ8A2Answer">()</string>
+    <string name="preQ8A3Answer">()</string>
 
     <string name="pretest_question_9">Question 9 - ()</string>
-    <string name="Q9A1Answer">()</string>
-    <string name="Q9A2Answer">()</string>
-    <string name="Q9A3Answer">()</string>
+    <string name="preQ9A1Answer">()</string>
+    <string name="preQ9A2Answer">()</string>
+    <string name="preQ9A3Answer">()</string>
 
     <string name="pretest_question_10">Question 10 - ()</string>
-    <string name="Q10A1Answer">()</string>
-    <string name="Q10A2Answer">()</string>
-    <string name="Q10A3Answer">()</string>
+    <string name="preQ10A1Answer">()</string>
+    <string name="preQ10A2Answer">()</string>
+    <string name="preQ10A3Answer">()</string>
 
     <string name="pretest_question_11">Question 11 - ()</string>
-    <string name="Q11A1Answer">()</string>
-    <string name="Q11A2Answer">()</string>
-    <string name="Q11A3Answer">()</string>
+    <string name="preQ11A1Answer">()</string>
+    <string name="preQ11A2Answer">()</string>
+    <string name="preQ11A3Answer">()</string>
 
     <string name="pretest_question_12">Question 12 - ()</string>
-    <string name="Q12A1Answer">()</string>
-    <string name="Q12A2Answer">()</string>
-    <string name="Q12A3Answer">()</string>
+    <string name="preQ12A1Answer">()</string>
+    <string name="preQ12A2Answer">()</string>
+    <string name="preQ12A3Answer">()</string>
 
     <string name="pretest_question_13">Question 13 - ()</string>
-    <string name="Q13A1Answer">()</string>
-    <string name="Q13A2Answer">()</string>
-    <string name="Q13A3Answer">()</string>
+    <string name="preQ13A1Answer">()</string>
+    <string name="preQ13A2Answer">()</string>
+    <string name="preQ13A3Answer">()</string>
 
     <string name="pretest_question_14">Question 14 - ()</string>
-    <string name="Q14A1Answer">()</string>
-    <string name="Q14A2Answer">()</string>
-    <string name="Q14A3Answer">()</string>
+    <string name="preQ14A1Answer">()</string>
+    <string name="preQ14A2Answer">()</string>
+    <string name="preQ14A3Answer">()</string>
 
     <string name="pretest_question_15">Question 15 - ()</string>
-    <string name="Q15A1Answer">()</string>
-    <string name="Q15A2Answer">()</string>
-    <string name="Q15A3Answer">()</string>
+    <string name="preQ15A1Answer">()</string>
+    <string name="preQ15A2Answer">()</string>
+    <string name="preQ15A3Answer">()</string>
 
     <string name="submit_quiz">Submit Quiz</string>
 
