@@ -33,11 +33,68 @@
     <string name="begWebQ5A2Answer"> </string>
     <string name="begWebQ5A3Answer"> </string>
 
-
-
+    <!--Strings related to Beginner Device quiz -->
     <string name="deviceQuizTitle">Device Safety</string>
 
+    <string name="begDev_question_1"> </string>
+    <string name="begDev_question_2"> </string>
+    <string name="begDev_question_3"> </string>
+    <string name="begDev_question_4"> </string>
+    <string name="begDev_question_5"> </string>
+
+    <string name="begDevQ1A1Answer"> </string>
+    <string name="begDevQ1A2Answer"> </string>
+    <string name="begDevQ1A3Answer"> </string>
+
+    <string name="begDevQ2A1Answer"> </string>
+    <string name="begDevQ2A2Answer"> </string>
+    <string name="begDevQ2A3Answer"> </string>
+
+    <string name="begDevQ3A1Answer"> </string>
+    <string name="begDevQ3A2Answer"> </string>
+    <string name="begDevQ3A3Answer"> </string>
+
+    <string name="begDevQ4A1Answer"> </string>
+    <string name="begDevQ4A2Answer"> </string>
+    <string name="begDevQ4A3Answer"> </string>
+
+    <string name="begDevQ5A1Answer"> </string>
+    <string name="begDevQ5A2Answer"> </string>
+    <string name="begDevQ5A3Answer"> </string>
+
+    <!--Strings related to Cyber Security Quiz -->
     <string name="cyberSecQuizTitle">Cyber Security</string>
+
+    <string name="begCyber_question_1"> </string>
+    <string name="begCyber_question_2"> </string>
+    <string name="begCyber_question_3"> </string>
+    <string name="begCyber_question_4"> </string>
+    <string name="begCyber_question_5"> </string>
+
+    <string name="begCyberQ1A1Answer"> </string>
+    <string name="begCyberQ1A2Answer"> </string>
+    <string name="begCyberQ1A3Answer"> </string>
+
+    <string name="begCyberQ2A1Answer"> </string>
+    <string name="begCyberQ2A2Answer"> </string>
+    <string name="begCyberQ2A3Answer"> </string>
+
+    <string name="begCyberQ3A1Answer"> </string>
+    <string name="begCyberQ3A2Answer"> </string>
+    <string name="begCyberQ3A3Answer"> </string>
+
+    <string name="begCyberQ4A1Answer"> </string>
+    <string name="begCyberQ4A2Answer"> </string>
+    <string name="begCyberQ4A3Answer"> </string>
+
+    <string name="begCyberQ5A1Answer"> </string>
+    <string name="begCyberQ5A2Answer"> </string>
+    <string name="begCyberQ5A3Answer"> </string>
+
+
+
+
+
 
 <!--    <string name=" "> </string>-->
 

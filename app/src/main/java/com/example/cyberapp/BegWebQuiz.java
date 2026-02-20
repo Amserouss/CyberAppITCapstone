@@ -24,7 +24,7 @@ public class BegWebQuiz extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pre_test_home);
+        setContentView(R.layout.beginner_quiz1);
 
         questionText = findViewById(R.id.questionText);
         questionCounter = findViewById(R.id.questionCounter);
