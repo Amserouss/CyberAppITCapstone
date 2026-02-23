@@ -3,6 +3,7 @@
     <!--  beginner_home Strings  -->
 
     <string name="beginnerTitle">Beginner Quizzes</string>
+    <string name="begDifficulty">Beginner</string>
     <!--    -->
 
     <string name="webQuizTitle">Online Safety</string>
