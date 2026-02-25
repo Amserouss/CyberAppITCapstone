@@ -24,7 +24,7 @@ public class InterCyberQuiz extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inter_quiz1);
+        setContentView(R.layout.inter_quiz3);
 
         questionText = findViewById(R.id.questionText);
         questionCounter = findViewById(R.id.questionCounter);
@@ -38,51 +38,51 @@ public class InterCyberQuiz extends AppCompatActivity {
 
         // determine order for correct answer in each question
         questions.add(new QuizQuestionLogic(
-                getString(R.string.interWeb_question_1),
+                getString(R.string.interCyber_question_1),
                 new String[]{
-                        getString(R.string.interWebQ1A1Answer),
-                        getString(R.string.interWebQ1A2Answer),
-                        getString(R.string.interWebQ1A3Answer),
+                        getString(R.string.interCyberQ1A1Answer),
+                        getString(R.string.interCyberQ1A2Answer),
+                        getString(R.string.interCyberQ1A3Answer),
                 },
                 0 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.interWeb_question_2),
+                getString(R.string.interCyber_question_2),
                 new String[]{
-                        getString(R.string.interWebQ2A1Answer),
-                        getString(R.string.interWebQ2A2Answer),
-                        getString(R.string.interWebQ2A3Answer)
+                        getString(R.string.interCyberQ2A1Answer),
+                        getString(R.string.interCyberQ2A2Answer),
+                        getString(R.string.interCyberQ2A3Answer)
                 },
                 1
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.interWeb_question_3),
+                getString(R.string.interCyber_question_3),
                 new String[]{
-                        getString(R.string.interWebQ3A1Answer),
-                        getString(R.string.interWebQ3A2Answer),
-                        getString(R.string.interWebQ3A3Answer)
+                        getString(R.string.interCyberQ3A1Answer),
+                        getString(R.string.interCyberQ3A2Answer),
+                        getString(R.string.interCyberQ3A3Answer)
                 },
                 1
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.interWeb_question_4),
+                getString(R.string.interCyber_question_4),
                 new String[]{
-                        getString(R.string.interWebQ4A1Answer),
-                        getString(R.string.interWebQ4A2Answer),
-                        getString(R.string.interWebQ4A3Answer)
+                        getString(R.string.interCyberQ4A1Answer),
+                        getString(R.string.interCyberQ4A2Answer),
+                        getString(R.string.interCyberQ4A3Answer)
                 },
                 1
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.interWeb_question_5),
+                getString(R.string.interCyber_question_5),
                 new String[]{
-                        getString(R.string.interWebQ5A2Answer),
-                        getString(R.string.interWebQ5A3Answer),
-                        getString(R.string.interWebQ5A1Answer),
+                        getString(R.string.interCyberQ5A2Answer),
+                        getString(R.string.interCyberQ5A3Answer),
+                        getString(R.string.interCyberQ5A1Answer),
                 },
                 1
         ));

@@ -29,6 +29,9 @@
         <activity android:name=".BegWebQuiz" />
         <activity android:name=".BegDevQuiz"/>
         <activity android:name=".BegCyberQuiz"/>
+        <activity android:name=".InterCyberQuiz"/>
+        <activity android:name=".InterDevQuiz"/>
+        <activity android:name=".InterWebQuiz"/>
 
 
     </application>
