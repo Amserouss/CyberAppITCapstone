@@ -1,5 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><!-- intermediate_home Strings   -->
+<resources>
+    <!-- intermediate_home Strings   -->
+
+    <string name="IntermediateTitle">Intermediate Quizzes</string>
+    <string name="interDifficulty">Intermediate</string>
+    <!--    -->
+
+    <string name="webQuizTitle">Online Safety</string>
+    <!--Strings related to Intermediate web quiz -->
+    <string name="interWeb_question_1"> </string>
+    <string name="interWeb_question_2"> </string>
+    <string name="interWeb_question_3"> </string>
+    <string name="interWeb_question_4"> </string>
+    <string name="interWeb_question_5"> </string>
+
+    <string name="interWebQ1A1Answer"> </string>
+    <string name="interWebQ1A2Answer"> </string>
+    <string name="interWebQ1A3Answer"> </string>
+
+    <string name="interWebQ2A1Answer"> </string>
+    <string name="interWebQ2A2Answer"> </string>
+    <string name="interWebQ2A3Answer"> </string>
+
+    <string name="interWebQ3A1Answer"> </string>
+    <string name="interWebQ3A2Answer"> </string>
+    <string name="interWebQ3A3Answer"> </string>
+
+    <string name="interWebQ4A1Answer"> </string>
+    <string name="interWebQ4A2Answer"> </string>
+    <string name="interWebQ4A3Answer"> </string>
+
+    <string name="interWebQ5A1Answer"> </string>
+    <string name="interWebQ5A2Answer"> </string>
+    <string name="interWebQ5A3Answer"> </string>
+
+    <!--Strings related to Intermediate Device quiz -->
+    <string name="deviceQuizTitle">Device Safety</string>
+
+    <string name="interDev_question_1"> </string>
+    <string name="interDev_question_2"> </string>
+    <string name="interDev_question_3"> </string>
+    <string name="interDev_question_4"> </string>
+    <string name="interDev_question_5"> </string>
+
+    <string name="interDevQ1A1Answer"> </string>
+    <string name="interDevQ1A2Answer"> </string>
+    <string name="interDevQ1A3Answer"> </string>
+
+    <string name="interDevQ2A1Answer"> </string>
+    <string name="interDevQ2A2Answer"> </string>
+    <string name="interDevQ2A3Answer"> </string>
+
+    <string name="interDevQ3A1Answer"> </string>
+    <string name="interDevQ3A2Answer"> </string>
+    <string name="interDevQ3A3Answer"> </string>
+
+    <string name="interDevQ4A1Answer"> </string>
+    <string name="interDevQ4A2Answer"> </string>
+    <string name="interDevQ4A3Answer"> </string>
+
+    <string name="interDevQ5A1Answer"> </string>
+    <string name="interDevQ5A2Answer"> </string>
+    <string name="interDevQ5A3Answer"> </string>
+
+    <!--Strings related to Intermediate Cyber Security Quiz -->
+    <string name="cyberSecQuizTitle">Cyber Security</string>
+
+    <string name="interCyber_question_1"> </string>
+    <string name="interCyber_question_2"> </string>
+    <string name="interCyber_question_3"> </string>
+    <string name="interCyber_question_4"> </string>
+    <string name="interCyber_question_5"> </string>
+
+    <string name="interCyberQ1A1Answer"> </string>
+    <string name="interCyberQ1A2Answer"> </string>
+    <string name="interCyberQ1A3Answer"> </string>
+
+    <string name="interCyberQ2A1Answer"> </string>
+    <string name="interCyberQ2A2Answer"> </string>
+    <string name="interCyberQ2A3Answer"> </string>
+
+    <string name="interCyberQ3A1Answer"> </string>
+    <string name="interCyberQ3A2Answer"> </string>
+    <string name="interCyberQ3A3Answer"> </string>
+
+    <string name="interCyberQ4A1Answer"> </string>
+    <string name="interCyberQ4A2Answer"> </string>
+    <string name="interCyberQ4A3Answer"> </string>
+
+    <string name="interCyberQ5A1Answer"> </string>
+    <string name="interCyberQ5A2Answer"> </string>
+    <string name="interCyberQ5A3Answer"> </string>
 
     <!--    -->
 

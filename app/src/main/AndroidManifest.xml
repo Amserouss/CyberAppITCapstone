@@ -27,6 +27,8 @@
         <activity android:name=".AdvancedHome" />
         <activity android:name=".ErrorPage" />
         <activity android:name=".BegWebQuiz" />
+        <activity android:name=".BegDevQuiz"/>
+        <activity android:name=".BegCyberQuiz"/>
 
 
     </application>
