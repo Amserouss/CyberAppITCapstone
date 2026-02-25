@@ -32,6 +32,9 @@
         <activity android:name=".InterCyberQuiz"/>
         <activity android:name=".InterDevQuiz"/>
         <activity android:name=".InterWebQuiz"/>
+        <activity android:name=".AdvWebQuiz"/>
+        <activity android:name=".AdvDevQuiz"/>
+        <activity android:name=".AdvCyberQuiz"/>
 
 
     </application>
