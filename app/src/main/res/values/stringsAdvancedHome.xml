@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Advanced_home Strings   -->
+    <string name="advancedTitle">Advanced Quizzes</string>
+    <string name="advDifficulty">Advanced</string>
+    <!--    -->
+
+    <string name="webQuizTitle">Online Safety</string>
+    <!--Strings related to beginner web quiz -->
+    <string name="advWeb_question_1"> </string>
+    <string name="advWeb_question_2"> </string>
+    <string name="advWeb_question_3"> </string>
+    <string name="advWeb_question_4"> </string>
+    <string name="advWeb_question_5"> </string>
+
+    <string name="advWebQ1A1Answer"> </string>
+    <string name="advWebQ1A2Answer"> </string>
+    <string name="advWebQ1A3Answer"> </string>
+
+    <string name="advWebQ2A1Answer"> </string>
+    <string name="advWebQ2A2Answer"> </string>
+    <string name="advWebQ2A3Answer"> </string>
+
+    <string name="advWebQ3A1Answer"> </string>
+    <string name="advWebQ3A2Answer"> </string>
+    <string name="advWebQ3A3Answer"> </string>
+
+    <string name="advWebQ4A1Answer"> </string>
+    <string name="advWebQ4A2Answer"> </string>
+    <string name="advWebQ4A3Answer"> </string>
+
+    <string name="advWebQ5A1Answer"> </string>
+    <string name="advWebQ5A2Answer"> </string>
+    <string name="advWebQ5A3Answer"> </string>
+
+    <!--Strings related to Beginner Device quiz -->
+    <string name="deviceQuizTitle">Device Safety</string>
+
+    <string name="advDev_question_1"> </string>
+    <string name="advDev_question_2"> </string>
+    <string name="advDev_question_3"> </string>
+    <string name="advDev_question_4"> </string>
+    <string name="advDev_question_5"> </string>
+
+    <string name="advDevQ1A1Answer"> </string>
+    <string name="advDevQ1A2Answer"> </string>
+    <string name="advDevQ1A3Answer"> </string>
+
+    <string name="advDevQ2A1Answer"> </string>
+    <string name="advDevQ2A2Answer"> </string>
+    <string name="advDevQ2A3Answer"> </string>
+
+    <string name="advDevQ3A1Answer"> </string>
+    <string name="advDevQ3A2Answer"> </string>
+    <string name="advDevQ3A3Answer"> </string>
+
+    <string name="advDevQ4A1Answer"> </string>
+    <string name="advDevQ4A2Answer"> </string>
+    <string name="advDevQ4A3Answer"> </string>
+
+    <string name="advDevQ5A1Answer"> </string>
+    <string name="advDevQ5A2Answer"> </string>
+    <string name="advDevQ5A3Answer"> </string>
+
+    <!--Strings related to Cyber Security Quiz -->
+    <string name="cyberSecQuizTitle">Cyber Security</string>
+
+    <string name="advCyber_question_1"> </string>
+    <string name="advCyber_question_2"> </string>
+    <string name="advCyber_question_3"> </string>
+    <string name="advCyber_question_4"> </string>
+    <string name="advCyber_question_5"> </string>
+
+    <string name="advCyberQ1A1Answer"> </string>
+    <string name="advCyberQ1A2Answer"> </string>
+    <string name="advCyberQ1A3Answer"> </string>
+
+    <string name="advCyberQ2A1Answer"> </string>
+    <string name="advCyberQ2A2Answer"> </string>
+    <string name="advCyberQ2A3Answer"> </string>
+
+    <string name="advCyberQ3A1Answer"> </string>
+    <string name="advCyberQ3A2Answer"> </string>
+    <string name="advCyberQ3A3Answer"> </string>
+
+    <string name="advCyberQ4A1Answer"> </string>
+    <string name="advCyberQ4A2Answer"> </string>
+    <string name="advCyberQ4A3Answer"> </string>
+
+    <string name="advCyberQ5A1Answer"> </string>
+    <string name="advCyberQ5A2Answer"> </string>
+    <string name="advCyberQ5A3Answer"> </string>
+
+
 
     <!--    -->
 
