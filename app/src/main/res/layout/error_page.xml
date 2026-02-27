@@ -6,5 +6,28 @@
     android:layout_height="match_parent"
     android:id="@+id/errorPageId"
     tools:context=".ErrorPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
 
+    <TextView
+        android:id="@+id/errorPageText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/errorText"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+        <Button
+
+            android:id="@+id/returnButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/returnButtonText"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="393dp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- error_page Strings   -->
+    <string name="errorText">There has been an error when opening the page you are trying to reach. \n \n Please press the return button below</string>
 </resources>
