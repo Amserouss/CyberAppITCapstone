@@ -5,7 +5,6 @@
     <string name="advDifficulty">Advanced</string>
     <!--    -->
 
-    <string name="webQuizTitle">Online Safety</string>
     <!--Strings related to beginner web quiz -->
     <string name="advWeb_question_1"> </string>
     <string name="advWeb_question_2"> </string>
@@ -34,7 +33,6 @@
     <string name="advWebQ5A3Answer"> </string>
 
     <!--Strings related to Beginner Device quiz -->
-    <string name="deviceQuizTitle">Device Safety</string>
 
     <string name="advDev_question_1"> </string>
     <string name="advDev_question_2"> </string>
@@ -63,7 +61,6 @@
     <string name="advDevQ5A3Answer"> </string>
 
     <!--Strings related to Cyber Security Quiz -->
-    <string name="cyberSecQuizTitle">Cyber Security</string>
 
     <string name="advCyber_question_1"> </string>
     <string name="advCyber_question_2"> </string>

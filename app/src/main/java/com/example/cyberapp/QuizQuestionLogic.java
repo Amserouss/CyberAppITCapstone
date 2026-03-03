@@ -1,9 +1,8 @@
 package com.example.cyberapp;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 
-public class QuizQuestionLogic extends AppCompatActivity {
+public class QuizQuestionLogic {
 
     private String questionText;
     private String[] answers;
@@ -23,4 +22,5 @@ public class QuizQuestionLogic extends AppCompatActivity {
         this.selectedAnswer = selectedAnswer;
     }
     public int getCorrectAnswer() { return correctAnswer; }
+
 }

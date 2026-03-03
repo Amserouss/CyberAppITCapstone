@@ -6,7 +6,6 @@
     <string name="interDifficulty">Intermediate</string>
     <!--    -->
 
-    <string name="webQuizTitle">Online Safety</string>
     <!--Strings related to Intermediate web quiz -->
     <string name="interWeb_question_1"> </string>
     <string name="interWeb_question_2"> </string>
@@ -35,7 +34,6 @@
     <string name="interWebQ5A3Answer"> </string>
 
     <!--Strings related to Intermediate Device quiz -->
-    <string name="deviceQuizTitle">Device Safety</string>
 
     <string name="interDev_question_1"> </string>
     <string name="interDev_question_2"> </string>
@@ -64,7 +62,6 @@
     <string name="interDevQ5A3Answer"> </string>
 
     <!--Strings related to Intermediate Cyber Security Quiz -->
-    <string name="cyberSecQuizTitle">Cyber Security</string>
 
     <string name="interCyber_question_1"> </string>
     <string name="interCyber_question_2"> </string>

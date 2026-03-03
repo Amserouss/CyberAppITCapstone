@@ -1,5 +1,6 @@
 package com.example.cyberapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -150,6 +151,17 @@ public class BegWebQuiz extends AppCompatActivity {
             radioGroup.check(radioGroup.getChildAt(
                     question.getSelectedAnswer()).getId());
         }
+    }
+    private void goToResults(int score, int totalQuestions, String quizTitle) {
+
+        Intent intent = new Intent(BegWebQuiz.this, QuizResults.class);
+
+        intent.putExtra("SCORE", score);
+        intent.putExtra("TOTAL", totalQuestions);
+        intent.putExtra("QUIZ_TITLE", quizTitle);
+
+        startActivity(intent);
+        finish();
     }
 
 }
