@@ -2,6 +2,7 @@ package com.example.cyberapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.content.Intent;
 
@@ -21,6 +22,19 @@ public class QuizResults extends AppCompatActivity {
         resultText.setText(
                 quizTitle + "\n\nScore: " + score + " / " + total
         );
+    }
+    public void buttonClick(View v) {
+        Intent intent = null;
+
+        int id = v.getId();
+        if (id == R.id.returnButtonId) {
+            intent = new Intent(this, MainActivity.class);
+
+        } else {
+            intent = new Intent(this, ErrorPage.class);
+        }
+
+        startActivity(intent);
     }
 
 }

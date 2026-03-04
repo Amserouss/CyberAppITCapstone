@@ -35,6 +35,7 @@
         <activity android:name=".AdvWebQuiz"/>
         <activity android:name=".AdvDevQuiz"/>
         <activity android:name=".AdvCyberQuiz"/>
+        <activity android:name=".QuizResults"/>
 
 
     </application>
