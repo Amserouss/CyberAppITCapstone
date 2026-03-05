@@ -1,5 +1,7 @@
 package com.example.cyberapp;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.*;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,8 @@ public class PreTestHome extends AppCompatActivity {
     private RadioGroup radioGroup;
     private RadioButton answer1, answer2, answer3;
     private Button nextButton;
+    private Button submitButton;
+
 
     private List<QuizQuestionLogic> questions;
     private int currentIndex = 0;
@@ -28,6 +32,8 @@ public class PreTestHome extends AppCompatActivity {
         answer2 = findViewById(R.id.answer2);
         answer3 = findViewById(R.id.answer3);
         nextButton = findViewById(R.id.nextButton);
+        submitButton = findViewById(R.id.submitButton);
+        submitButton.setVisibility(View.GONE);
 
         questions = new ArrayList<>();
 
@@ -195,24 +201,39 @@ public class PreTestHome extends AppCompatActivity {
                 return;
             }
 
-            int selectedIndex = radioGroup.indexOfChild(
-                    findViewById(selectedId));
+            int selectedIndex = radioGroup.indexOfChild(findViewById(selectedId));
 
             questions.get(currentIndex).setSelectedAnswer(selectedIndex);
 
-            currentIndex++;
+            //currentIndex++;
 
-            if (currentIndex < questions.size()) {
-                loadQuestion(currentIndex);
+            if (currentIndex == questions.size() - 1) {
+
+                nextButton.setVisibility(View.GONE);
+                submitButton.setVisibility(View.VISIBLE);
+                submitButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        int score = calculateScore();
+                        int total = questions.size();
+
+                        goToResults(score, total, "Web Security Quiz");
+
+                    }
+                });
+                //calculateScore();
+
             } else {
-                calculateScore();
+
+                currentIndex++;
+                loadQuestion(currentIndex);
             }
         });
 
     }
 
     //7
-    private void calculateScore() {
+    private int calculateScore() {
 
         int score = 0;
 
@@ -222,9 +243,10 @@ public class PreTestHome extends AppCompatActivity {
             }
         }
 
-        Toast.makeText(this,
-                "You scored " + score + " out of " + questions.size(),
-                Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,
+//                "You scored " + score + " out of " + questions.size(),
+//                Toast.LENGTH_LONG).show();
+        return score;
     }
 
 
@@ -249,7 +271,17 @@ public class PreTestHome extends AppCompatActivity {
         }
     }
 
+    private void goToResults(int score, int totalQuestions, String quizTitle) {
 
+        Intent intent = new Intent(PreTestHome.this, QuizResults.class);
+
+        intent.putExtra("SCORE", score);
+        intent.putExtra("TOTAL", totalQuestions);
+        intent.putExtra("QUIZ_TITLE", quizTitle);
+
+        startActivity(intent);
+        finish();
+    }
 
 
 }

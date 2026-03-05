@@ -1,6 +1,8 @@
 package com.example.cyberapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -17,6 +19,8 @@ public class AdvDevQuiz extends AppCompatActivity {
     private RadioGroup radioGroup;
     private RadioButton answer1, answer2, answer3;
     private Button nextButton;
+    private Button submitButton;
+
 
     private List<QuizQuestionLogic> questions;
     private int currentIndex = 0;
@@ -33,6 +37,8 @@ public class AdvDevQuiz extends AppCompatActivity {
         answer2 = findViewById(R.id.answer2);
         answer3 = findViewById(R.id.answer3);
         nextButton = findViewById(R.id.nextButton);
+        submitButton = findViewById(R.id.submitButton);
+        submitButton.setVisibility(View.GONE);
 
         questions = new ArrayList<>();
 
@@ -103,19 +109,35 @@ public class AdvDevQuiz extends AppCompatActivity {
 
             questions.get(currentIndex).setSelectedAnswer(selectedIndex);
 
-            currentIndex++;
+            //currentIndex++;
 
-            if (currentIndex < questions.size()) {
-                loadQuestion(currentIndex);
+            if (currentIndex == questions.size() - 1) {
+
+                nextButton.setVisibility(View.GONE);
+                submitButton.setVisibility(View.VISIBLE);
+                submitButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        int score = calculateScore();
+                        int total = questions.size();
+
+                        goToResults(score, total, "Web Security Quiz");
+
+                    }
+                });
+                //calculateScore();
+
             } else {
-                calculateScore();
+
+                currentIndex++;
+                loadQuestion(currentIndex);
             }
         });
 
     }
 
     //7
-    private void calculateScore() {
+    private int calculateScore() {
 
         int score = 0;
 
@@ -125,9 +147,10 @@ public class AdvDevQuiz extends AppCompatActivity {
             }
         }
 
-        Toast.makeText(this,
-                "You scored " + score + " out of " + questions.size(),
-                Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,
+//                "You scored " + score + " out of " + questions.size(),
+//                Toast.LENGTH_LONG).show();
+        return score;
     }
 
 
@@ -150,6 +173,17 @@ public class AdvDevQuiz extends AppCompatActivity {
             radioGroup.check(radioGroup.getChildAt(
                     question.getSelectedAnswer()).getId());
         }
+    }
+    private void goToResults(int score, int totalQuestions, String quizTitle) {
+
+        Intent intent = new Intent(AdvDevQuiz.this, QuizResults.class);
+
+        intent.putExtra("SCORE", score);
+        intent.putExtra("TOTAL", totalQuestions);
+        intent.putExtra("QUIZ_TITLE", quizTitle);
+
+        startActivity(intent);
+        finish();
     }
 
 }
