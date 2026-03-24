@@ -8,89 +8,89 @@
 
     <string name="webQuizTitle">Online Safety</string>
     <!--Strings related to beginner web quiz -->
-    <string name="begWeb_question_1"> </string>
-    <string name="begWeb_question_2"> </string>
-    <string name="begWeb_question_3"> </string>
-    <string name="begWeb_question_4"> </string>
-    <string name="begWeb_question_5"> </string>
+    <string name="begWeb_question_1">What should you do before clicking a link in an email? </string>
+    <string name="begWeb_question_2">What is a safe practice when browsing websites? </string>
+    <string name="begWeb_question_3">What should you avoid doing on public Wi-Fi? </string>
+    <string name="begWeb_question_4"> What is a common sign of a suspicious email?</string>
+    <string name="begWeb_question_5"> What should you do with pop-up ads?</string>
 
-    <string name="begWebQ1A1Answer"> </string>
-    <string name="begWebQ1A2Answer"> </string>
-    <string name="begWebQ1A3Answer"> </string>
+    <string name="begWebQ1A1Answer">Check that the sender and link are legitimate C  </string>
+    <string name="begWebQ1A2Answer">Click it quickly before it expires </string>
+    <string name="begWebQ1A3Answer"> Trust it if it looks professional</string>
 
-    <string name="begWebQ2A1Answer"> </string>
-    <string name="begWebQ2A2Answer"> </string>
-    <string name="begWebQ2A3Answer"> </string>
+    <string name="begWebQ2A1Answer">Look for “https” in the URL C </string>
+    <string name="begWebQ2A2Answer">Trust any site that loads quickly </string>
+    <string name="begWebQ2A3Answer">Avoid websites with login pages </string>
 
-    <string name="begWebQ3A1Answer"> </string>
-    <string name="begWebQ3A2Answer"> </string>
-    <string name="begWebQ3A3Answer"> </string>
+    <string name="begWebQ3A1Answer"> Logging into sensitive accounts C</string>
+    <string name="begWebQ3A2Answer">  Browsing news websites</string>
+    <string name="begWebQ3A3Answer"> Using search engines</string>
 
-    <string name="begWebQ4A1Answer"> </string>
-    <string name="begWebQ4A2Answer"> </string>
-    <string name="begWebQ4A3Answer"> </string>
+    <string name="begWebQ4A1Answer"> C Spelling and grammar mistakes</string>
+    <string name="begWebQ4A2Answer"> Includes a company logo</string>
+    <string name="begWebQ4A3Answer"> Has a subject line</string>
 
-    <string name="begWebQ5A1Answer"> </string>
-    <string name="begWebQ5A2Answer"> </string>
-    <string name="begWebQ5A3Answer"> </string>
+    <string name="begWebQ5A1Answer"> C Avoid clicking them</string>
+    <string name="begWebQ5A2Answer"> Click to close them quickly</string>
+    <string name="begWebQ5A3Answer">  Only click ones with warnings</string>
 
     <!--Strings related to Beginner Device quiz -->
     <string name="deviceQuizTitle">Device Safety</string>
 
-    <string name="begDev_question_1"> </string>
-    <string name="begDev_question_2"> </string>
-    <string name="begDev_question_3"> </string>
-    <string name="begDev_question_4"> </string>
-    <string name="begDev_question_5"> </string>
+    <string name="begDev_question_1"> Why is it important to update your device?</string>
+    <string name="begDev_question_2">What does antivirus software do? </string>
+    <string name="begDev_question_3">Why should you lock your device? </string>
+    <string name="begDev_question_4">What is malware? </string>
+    <string name="begDev_question_5"> What should you do before installing new software?</string>
 
-    <string name="begDevQ1A1Answer"> </string>
-    <string name="begDevQ1A2Answer"> </string>
-    <string name="begDevQ1A3Answer"> </string>
+    <string name="begDevQ1A1Answer"> C Fixes security vulnerabilities</string>
+    <string name="begDevQ1A2Answer"> Increases battery size</string>
+    <string name="begDevQ1A3Answer">Changes hardware components </string>
 
-    <string name="begDevQ2A1Answer"> </string>
-    <string name="begDevQ2A2Answer"> </string>
-    <string name="begDevQ2A3Answer"> </string>
+    <string name="begDevQ2A1Answer">C Detects and removes malware </string>
+    <string name="begDevQ2A2Answer"> Updates hardware</string>
+    <string name="begDevQ2A3Answer">Speeds up internet </string>
 
-    <string name="begDevQ3A1Answer"> </string>
-    <string name="begDevQ3A2Answer"> </string>
-    <string name="begDevQ3A3Answer"> </string>
+    <string name="begDevQ3A1Answer">C Prevent unauthorized access </string>
+    <string name="begDevQ3A2Answer"> Improve performance</string>
+    <string name="begDevQ3A3Answer">Increase storage </string>
 
-    <string name="begDevQ4A1Answer"> </string>
-    <string name="begDevQ4A2Answer"> </string>
-    <string name="begDevQ4A3Answer"> </string>
+    <string name="begDevQ4A1Answer"> Software that improves performance</string>
+    <string name="begDevQ4A2Answer"> C Malicious software designed to harm systems</string>
+    <string name="begDevQ4A3Answer"> A type of hardware</string>
 
-    <string name="begDevQ5A1Answer"> </string>
-    <string name="begDevQ5A2Answer"> </string>
-    <string name="begDevQ5A3Answer"> </string>
+    <string name="begDevQ5A1Answer">Disable security settings </string>
+    <string name="begDevQ5A2Answer"> Ignore permissions</string>
+    <string name="begDevQ5A3Answer"> C Verify the source is trusted</string>
 
     <!--Strings related to Cyber Security Quiz -->
     <string name="cyberSecQuizTitle">Cyber Security</string>
 
-    <string name="begCyber_question_1"> </string>
-    <string name="begCyber_question_2"> </string>
-    <string name="begCyber_question_3"> </string>
-    <string name="begCyber_question_4"> </string>
-    <string name="begCyber_question_5"> </string>
+    <string name="begCyber_question_1">What is a strong password? </string>
+    <string name="begCyber_question_2">What is phishing? </string>
+    <string name="begCyber_question_3"> What is a VPN?</string>
+    <string name="begCyber_question_4">What is two-factor authentication? </string>
+    <string name="begCyber_question_5"> What is encryption?</string>
 
-    <string name="begCyberQ1A1Answer"> </string>
-    <string name="begCyberQ1A2Answer"> </string>
-    <string name="begCyberQ1A3Answer"> </string>
+    <string name="begCyberQ1A1Answer">Your name </string>
+    <string name="begCyberQ1A2Answer">C Long and complex </string>
+    <string name="begCyberQ1A3Answer"> Same password everywhere </string>
 
-    <string name="begCyberQ2A1Answer"> </string>
-    <string name="begCyberQ2A2Answer"> </string>
-    <string name="begCyberQ2A3Answer"> </string>
+    <string name="begCyberQ2A1Answer">C Attempt to trick users into giving info </string>
+    <string name="begCyberQ2A2Answer"> A way to speed up internet </string>
+    <string name="begCyberQ2A3Answer"> A backup method </string>
 
-    <string name="begCyberQ3A1Answer"> </string>
-    <string name="begCyberQ3A2Answer"> </string>
-    <string name="begCyberQ3A3Answer"> </string>
+    <string name="begCyberQ3A1Answer"> Detects viruses </string>
+    <string name="begCyberQ3A2Answer">C Encrypts your internet connection </string>
+    <string name="begCyberQ3A3Answer"> Boosts performance </string>
 
-    <string name="begCyberQ4A1Answer"> </string>
-    <string name="begCyberQ4A2Answer"> </string>
-    <string name="begCyberQ4A3Answer"> </string>
+    <string name="begCyberQ4A1Answer"> Antivirus feature </string>
+    <string name="begCyberQ4A2Answer"> Faster login </string>
+    <string name="begCyberQ4A3Answer"> CExtra layer of security </string>
 
-    <string name="begCyberQ5A1Answer"> </string>
-    <string name="begCyberQ5A2Answer"> </string>
-    <string name="begCyberQ5A3Answer"> </string>
+    <string name="begCyberQ5A1Answer"> Compressing data </string>
+    <string name="begCyberQ5A2Answer"> C Converting data into unreadable form </string>
+    <string name="begCyberQ5A3Answer"> Speeding up networks </string>
 
 
 

@@ -5,80 +5,80 @@
 
     <!-- pretest_home Strings   -->
     <string name="skill_pre_test">Skill Pre-Test</string>
-    <string name="pretest_question_1">Question 1 - ()</string>
-    <string name="preQ1A1Answer">()</string>
-    <string name="preQ1A2Answer">()</string>
-    <string name="preQ1A3Answer">()</string>
+    <string name="pretest_question_1">Question 1 - Which of these is the strongest password?</string>
+    <string name="preQ1A1Answer">MichaelFL05</string>
+    <string name="preQ1A2Answer">password0</string>
+    <string name="preQ1A3Answer">S3cur3_616</string><!--correct -->
 
-    <string name="pretest_question_2">Question 2 - ()</string>
-    <string name="preQ2A1Answer">()</string>
-    <string name="preQ2A2Answer">()</string>
-    <string name="preQ2A3Answer">()</string>
+    <string name="pretest_question_2">Question 2 - What should you do if you get a suspicious email from someone you do not know?</string>
+    <string name="preQ2A1Answer">Open it and click all the links</string>
+    <string name="preQ2A2Answer">Delete it or mark it as spam</string><!--correct -->
+    <string name="preQ2A3Answer">Reply to ask who they are</string>
 
-    <string name="pretest_question_3">Question 3 - ()</string>
-    <string name="preQ3A1Answer">()</string>
-    <string name="preQ3A2Answer">()</string>
-    <string name="preQ3A3Answer">()</string>
+    <string name="pretest_question_3">Question 3 - John is using his work laptop in a public cafe and has to step away to grab a drink, what should he do before leaving his workstation?</string>
+    <string name="preQ3A1Answer">Nothing, grabbing his drink should only take a few minutes and he will be right back</string>
+    <string name="preQ3A2Answer">Signout of important websites and lock his computer</string> <!--correct-->
+    <string name="preQ3A3Answer">As long as he can keep his pc in his line of sight, nothing will go wrong.</string>
 
-    <string name="pretest_question_4">Question 4 - ()</string>
-    <string name="preQ4A1Answer">()</string>
-    <string name="preQ4A2Answer">()</string>
-    <string name="preQ4A3Answer">()</string>
+    <string name="pretest_question_4">Question 4 - Emily’s phone is going to run out of battery soon but as shes going to plug it in, she notices that the charging cable is frayed and has exposed wire. What should she do?</string>
+    <string name="preQ4A1Answer">Charge her phone anyways since it is urgent and needs to be charged</string>
+    <string name="preQ4A2Answer">Ask to borrow or purchase a new charger from a convenience store</string> <!-- correct-->
+    <string name="preQ4A3Answer">Discard in a regular trash bin</string>
 
-    <string name="pretest_question_5">Question 5 - ()</string>
-    <string name="preQ5A1Answer">()</string>
-    <string name="preQ5A2Answer">()</string>
-    <string name="preQ5A3Answer">()</string>
+    <string name="pretest_question_5">Question 5 - What is a VPN?</string>
+    <string name="preQ5A1Answer">A Virtual Private Network that encrypts your internet connection and hides your IP address</string>
+    <string name="preQ5A2Answer">A type of antivirus software that protects your device from malware.</string>
+    <string name="preQ5A3Answer">A secure Wi-Fi network provided by internet service providers for public use.</string>
 
-    <string name="pretest_question_6">Question 6 - ()</string>
-    <string name="preQ6A1Answer">()</string>
-    <string name="preQ6A2Answer">()</string>
-    <string name="preQ6A3Answer">()</string>
+    <string name="pretest_question_6">Question 6 - What is the difference between A White Hat hacker and a Black Hat hacker?</string>
+    <string name="preQ6A1Answer">White hat is someone who hacks ethically in order to find weakness and improve security, black hat hackers are criminals who access confidential information for malicious purposes. (Correct answer)</string>
+    <string name="preQ6A2Answer">White hat are criminals who access personal devices in order to steal bank information, while black hat hackers are criminals who black mail users through email scams</string>
+    <string name="preQ6A3Answer">There is no difference, they are just titles that sound cool</string>
 
-    <string name="pretest_question_7">Question 7 - ()</string>
-    <string name="preQ7A1Answer">()</string>
-    <string name="preQ7A2Answer">()</string>
-    <string name="preQ7A3Answer">()</string>
+    <string name="pretest_question_7">Question 7 - Why should you have different passwords for different websites?</string>
+    <string name="preQ7A1Answer">You shouldnt have different passwords because it is easier to remember the same password if you use many different websites.</string>
+    <string name="preQ7A2Answer">It is easier for hackers and other criminals to access your information if they already have access to one of your accounts elsewhere (Correct answer)</string>
+    <string name="preQ7A3Answer">Computers can only save a limited number of passwords online, leaving the rest up to you to remember</string>
 
-    <string name="pretest_question_8">Question 8 - ()</string>
-    <string name="preQ8A1Answer">()</string>
-    <string name="preQ8A2Answer">()</string>
-    <string name="preQ8A3Answer">()</string>
+    <string name="pretest_question_8">Question 8 - What are some indicators of a Phishing attempt in an email?</string>
+    <string name="preQ8A1Answer">Typos throughout message, incorrect name addressing you, sender address not matching official company’s email. (Correct answer)</string>
+    <string name="preQ8A2Answer">Attached files with vague names, attachments that are unrelated to the content of the email, links to external websites that you do not recognize</string>
+    <string name="preQ8A3Answer">Requests for personal information to confirm account information, urgency or threatening tones.</string>
 
-    <string name="pretest_question_9">Question 9 - ()</string>
-    <string name="preQ9A1Answer">()</string>
-    <string name="preQ9A2Answer">()</string>
-    <string name="preQ9A3Answer">()</string>
+    <string name="pretest_question_9">Question 9 - Why is grounding important when handling the internal pieces of a computer?</string>
+    <string name="preQ9A1Answer">To prevent electrostatic discharge from damaging electronic components.</string>
+    <string name="preQ9A2Answer">It improves the performance of the components during installation.</string>
+    <string name="preQ9A3Answer">It helps the computer recognize new hardware faster after installation.</string>
 
-    <string name="pretest_question_10">Question 10 - ()</string>
-    <string name="preQ10A1Answer">()</string>
-    <string name="preQ10A2Answer">()</string>
-    <string name="preQ10A3Answer">()</string>
+    <string name="pretest_question_10">Question 10 - What kind of cable will allow your pc to connect to Ethernet?</string>
+    <string name="preQ10A1Answer">HDMI</string>
+    <string name="preQ10A2Answer">LAN (Correct Answer</string>
+    <string name="preQ10A3Answer">SATA</string>
 
-    <string name="pretest_question_11">Question 11 - ()</string>
-    <string name="preQ11A1Answer">()</string>
-    <string name="preQ11A2Answer">()</string>
-    <string name="preQ11A3Answer">()</string>
+    <string name="pretest_question_11">Question 11 - What should you do any time you use public networks?</string>
+    <string name="preQ11A1Answer">Avoid using public networks generally, use VPN if you must access one, never view sensitive information on a public network or log in to accounts.</string>
+    <string name="preQ11A2Answer">Turn off your firewall to avoid connection issues on public Wi-Fi.</string>
+    <string name="preQ11A3Answer">Use the same trusted websites you normally use at home to stay safe</string>
 
-    <string name="pretest_question_12">Question 12 - ()</string>
-    <string name="preQ12A1Answer">()</string>
-    <string name="preQ12A2Answer">()</string>
-    <string name="preQ12A3Answer">()</string>
+    <string name="pretest_question_12">Question 12 - What is Cryptography?</string>
+    <string name="preQ12A1Answer"> Securing digital information by transforming it into unreadable data called ciphertext which is able to be decoded by another party with a matching key. (Correct answer)</string>
+    <string name="preQ12A2Answer">A method of compressing data to reduce file size and improve storage efficiency.</string>
+    <string name="preQ12A3Answer">A system used to back up data automatically across multiple servers.</string>
 
-    <string name="pretest_question_13">Question 13 - ()</string>
-    <string name="preQ13A1Answer">()</string>
-    <string name="preQ13A2Answer">()</string>
-    <string name="preQ13A3Answer">()</string>
+    <string name="pretest_question_13">Question 13 - Which of the following best describes the function of HTTPS in a URL?</string>
+    <string name="preQ13A1Answer">It signifies that the data between your browser and the website is encrypted. (Correct answer)</string>
+    <string name="preQ13A2Answer">. It means the website has been vetted by Google.</string>
+    <string name="preQ13A3Answer">. It allows you to enter credit card info on any site safely</string>
 
-    <string name="pretest_question_14">Question 14 - ()</string>
-    <string name="preQ14A1Answer">()</string>
-    <string name="preQ14A2Answer">()</string>
-    <string name="preQ14A3Answer">()</string>
+    <string name="pretest_question_14">Question 14 - You are working in your office building and find a USB drive on your desk with a sticky note labeled, “Run program to update company database software” signed with your bosses first name. What should you do?</string>
+    <string name="preQ14A1Answer">Do not plug in and report to your companies IT or security team immediately.</string>
+    <string name="preQ14A2Answer">Plug in the device and run a windows scan to see if it contains anything harmful.</string>
+    <string name="preQ14A3Answer">Plug in the device and run the programs it contains, since its from your boss</string>
 
-    <string name="pretest_question_15">Question 15 - ()</string>
-    <string name="preQ15A1Answer">()</string>
-    <string name="preQ15A2Answer">()</string>
-    <string name="preQ15A3Answer">()</string>
+    <string name="pretest_question_15">Question 15 - A threat actor is trying to find unused features in a commercial software package to bypass security controls. What type of vulnerability is this?</string>
+    <string name="preQ15A1Answer">Misconfiguration</string>
+    <string name="preQ15A2Answer">Cryptographic failure.</string>
+    <string name="preQ15A3Answer">Insecure design. (Correct answer)</string>
 
     <string name="submit_quiz">Submit Quiz</string>
 
