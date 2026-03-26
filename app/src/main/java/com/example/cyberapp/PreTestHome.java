@@ -45,7 +45,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ1A2Answer),
                         getString(R.string.preQ1A3Answer)
                 },
-                0 // correct answer index
+                2 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -85,7 +85,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ5A3Answer),
                         getString(R.string.preQ5A1Answer),
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -95,7 +95,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ6A2Answer),
                         getString(R.string.preQ6A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -105,7 +105,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ7A2Answer),
                         getString(R.string.preQ7A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -115,7 +115,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ8A2Answer),
                         getString(R.string.preQ8A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -125,7 +125,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ9A2Answer),
                         getString(R.string.preQ9A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -145,7 +145,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ11A2Answer),
                         getString(R.string.preQ11A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -155,7 +155,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ12A2Answer),
                         getString(R.string.preQ12A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -165,7 +165,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ13A2Answer),
                         getString(R.string.preQ13A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -175,7 +175,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ14A2Answer),
                         getString(R.string.preQ14A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -185,7 +185,7 @@ public class PreTestHome extends AppCompatActivity {
                         getString(R.string.preQ15A2Answer),
                         getString(R.string.preQ15A3Answer)
                 },
-                1
+                2
         ));
 
 
