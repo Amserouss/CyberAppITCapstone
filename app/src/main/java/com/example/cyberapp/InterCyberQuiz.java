@@ -21,6 +21,8 @@ public class InterCyberQuiz extends AppCompatActivity {
     private Button nextButton;
     private Button submitButton;
 
+    private String currentQuizTitle = "Intermediate Cyber Security Quiz";
+
 
     private List<QuizQuestionLogic> questions;
     private int currentIndex = 0;
@@ -121,7 +123,7 @@ public class InterCyberQuiz extends AppCompatActivity {
                         int score = calculateScore();
                         int total = questions.size();
 
-                        goToResults(score, total, "Web Security Quiz");
+                        goToResults(score, total, currentQuizTitle);
 
                     }
                 });

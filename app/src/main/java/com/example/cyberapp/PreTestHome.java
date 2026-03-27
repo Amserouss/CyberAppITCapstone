@@ -15,6 +15,7 @@ public class PreTestHome extends AppCompatActivity {
     private RadioButton answer1, answer2, answer3;
     private Button nextButton;
     private Button submitButton;
+    private String currentQuizTitle = "Pre-Test Quiz";
 
 
     private List<QuizQuestionLogic> questions;
@@ -217,7 +218,7 @@ public class PreTestHome extends AppCompatActivity {
                         int score = calculateScore();
                         int total = questions.size();
 
-                        goToResults(score, total, "Web Security Quiz");
+                        goToResults(score, total, currentQuizTitle);
 
                     }
                 });

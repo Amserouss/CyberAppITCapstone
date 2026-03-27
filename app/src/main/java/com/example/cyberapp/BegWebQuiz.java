@@ -20,6 +20,7 @@ public class BegWebQuiz extends AppCompatActivity {
     private RadioButton answer1, answer2, answer3;
     private Button nextButton;
     private Button submitButton;
+    private String currentQuizTitle = "Beginner Web Security Quiz";
 
     private List<QuizQuestionLogic> questions;
     private int currentIndex = 0;
@@ -118,7 +119,7 @@ public class BegWebQuiz extends AppCompatActivity {
                         int score = calculateScore();
                         int total = questions.size();
 
-                        goToResults(score, total, "Web Security Quiz");
+                        goToResults(score, total, currentQuizTitle);
 
                     }
                 });
