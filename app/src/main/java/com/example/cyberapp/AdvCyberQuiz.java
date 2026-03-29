@@ -71,7 +71,7 @@ public class AdvCyberQuiz extends AppCompatActivity {
                         getString(R.string.advWebQ3A2Answer),
                         getString(R.string.advWebQ3A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -81,7 +81,7 @@ public class AdvCyberQuiz extends AppCompatActivity {
                         getString(R.string.advWebQ4A2Answer),
                         getString(R.string.advWebQ4A3Answer)
                 },
-                1
+                2
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -91,7 +91,7 @@ public class AdvCyberQuiz extends AppCompatActivity {
                         getString(R.string.advWebQ5A3Answer),
                         getString(R.string.advWebQ5A1Answer),
                 },
-                1
+                0
         ));
 
         loadQuestion(currentIndex);//determine where this goes and update

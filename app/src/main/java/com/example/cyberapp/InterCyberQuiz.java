@@ -52,7 +52,7 @@ public class InterCyberQuiz extends AppCompatActivity {
                         getString(R.string.interCyberQ1A2Answer),
                         getString(R.string.interCyberQ1A3Answer),
                 },
-                0 // correct answer index
+                1 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -62,7 +62,7 @@ public class InterCyberQuiz extends AppCompatActivity {
                         getString(R.string.interCyberQ2A2Answer),
                         getString(R.string.interCyberQ2A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -72,7 +72,7 @@ public class InterCyberQuiz extends AppCompatActivity {
                         getString(R.string.interCyberQ3A2Answer),
                         getString(R.string.interCyberQ3A3Answer)
                 },
-                1
+                2
         ));
 
         questions.add(new QuizQuestionLogic(

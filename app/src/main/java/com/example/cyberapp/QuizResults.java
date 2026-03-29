@@ -14,6 +14,8 @@ public class QuizResults extends AppCompatActivity {
         setContentView(R.layout.quiz_results);
 
         TextView resultText = findViewById(R.id.resultText);
+        TextView difficultyText = findViewById(R.id.difficultyText);
+
 
         int score = getIntent().getIntExtra("SCORE", 0);
         int total = getIntent().getIntExtra("TOTAL", 0);
@@ -21,7 +23,19 @@ public class QuizResults extends AppCompatActivity {
 
         resultText.setText(
                 quizTitle + "\n\nScore: " + score + " / " + total
+
         );
+        String difficulty = getIntent().getStringExtra("DIFFICULTY");
+
+        if (difficulty != null && !difficulty.isEmpty()) {
+            difficultyText.setVisibility(View.VISIBLE);
+            difficultyText.setText("Difficulty Level: " + difficulty);
+        } else {
+            difficultyText.setVisibility(View.GONE);
+        }
+
+
+
     }
     public void buttonClick(View v) {
         Intent intent = null;
@@ -36,5 +50,6 @@ public class QuizResults extends AppCompatActivity {
 
         startActivity(intent);
     }
+
 
 }

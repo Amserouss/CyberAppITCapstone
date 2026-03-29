@@ -51,7 +51,7 @@ public class InterDevQuiz extends AppCompatActivity {
                         getString(R.string.interDevQ1A2Answer),
                         getString(R.string.interDevQ1A3Answer),
                 },
-                0 // correct answer index
+                1 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -61,7 +61,7 @@ public class InterDevQuiz extends AppCompatActivity {
                         getString(R.string.interDevQ2A2Answer),
                         getString(R.string.interDevQ2A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -71,7 +71,7 @@ public class InterDevQuiz extends AppCompatActivity {
                         getString(R.string.interDevQ3A2Answer),
                         getString(R.string.interDevQ3A3Answer)
                 },
-                1
+                2
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -91,7 +91,7 @@ public class InterDevQuiz extends AppCompatActivity {
                         getString(R.string.interDevQ5A3Answer),
                         getString(R.string.interDevQ5A1Answer),
                 },
-                1
+                2
         ));
 
         loadQuestion(currentIndex);//determine where this goes and update

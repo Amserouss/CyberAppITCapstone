@@ -51,7 +51,7 @@ public class BegDevQuiz extends AppCompatActivity {
                         getString(R.string.begDevQ1A2Answer),
                         getString(R.string.begDevQ1A3Answer),
                 },
-                0 // correct answer index
+                1 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -61,7 +61,7 @@ public class BegDevQuiz extends AppCompatActivity {
                         getString(R.string.begDevQ2A2Answer),
                         getString(R.string.begDevQ2A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -71,7 +71,7 @@ public class BegDevQuiz extends AppCompatActivity {
                         getString(R.string.begDevQ3A2Answer),
                         getString(R.string.begDevQ3A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(

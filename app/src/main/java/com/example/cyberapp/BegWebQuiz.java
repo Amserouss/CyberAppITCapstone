@@ -50,7 +50,7 @@ public class BegWebQuiz extends AppCompatActivity {
                         getString(R.string.begWebQ1A2Answer),
                         getString(R.string.begWebQ1A3Answer),
                 },
-                0 // correct answer index
+                1 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -60,7 +60,7 @@ public class BegWebQuiz extends AppCompatActivity {
                         getString(R.string.begWebQ2A2Answer),
                         getString(R.string.begWebQ2A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -70,7 +70,7 @@ public class BegWebQuiz extends AppCompatActivity {
                         getString(R.string.begWebQ3A2Answer),
                         getString(R.string.begWebQ3A3Answer)
                 },
-                1
+                2
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -80,7 +80,7 @@ public class BegWebQuiz extends AppCompatActivity {
                         getString(R.string.begWebQ4A2Answer),
                         getString(R.string.begWebQ4A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(

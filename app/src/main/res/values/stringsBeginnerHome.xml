@@ -14,24 +14,24 @@
     <string name="begWeb_question_4"> What is a common sign of a suspicious email?</string>
     <string name="begWeb_question_5"> What should you do with pop-up ads?</string>
 
-    <string name="begWebQ1A1Answer">Check that the sender and link are legitimate C  </string>
-    <string name="begWebQ1A2Answer">Click it quickly before it expires </string>
+    <string name="begWebQ1A1Answer">Click it quickly before it expires  </string>
+    <string name="begWebQ1A2Answer">Check that the sender and link are legitimate C </string>
     <string name="begWebQ1A3Answer"> Trust it if it looks professional</string>
 
     <string name="begWebQ2A1Answer">Look for “https” in the URL C </string>
     <string name="begWebQ2A2Answer">Trust any site that loads quickly </string>
     <string name="begWebQ2A3Answer">Avoid websites with login pages </string>
 
-    <string name="begWebQ3A1Answer"> Logging into sensitive accounts C</string>
+    <string name="begWebQ3A1Answer">Using search engines </string>
     <string name="begWebQ3A2Answer">  Browsing news websites</string>
-    <string name="begWebQ3A3Answer"> Using search engines</string>
+    <string name="begWebQ3A3Answer">Logging into sensitive accounts C </string>
 
     <string name="begWebQ4A1Answer"> C Spelling and grammar mistakes</string>
     <string name="begWebQ4A2Answer"> Includes a company logo</string>
     <string name="begWebQ4A3Answer"> Has a subject line</string>
 
-    <string name="begWebQ5A1Answer"> C Avoid clicking them</string>
-    <string name="begWebQ5A2Answer"> Click to close them quickly</string>
+    <string name="begWebQ5A1Answer"> Click to close them quickly</string>
+    <string name="begWebQ5A2Answer"> C Avoid clicking them</string>
     <string name="begWebQ5A3Answer">  Only click ones with warnings</string>
 
     <!--Strings related to Beginner Device quiz -->
@@ -43,8 +43,8 @@
     <string name="begDev_question_4">What is malware? </string>
     <string name="begDev_question_5"> What should you do before installing new software?</string>
 
-    <string name="begDevQ1A1Answer"> C Fixes security vulnerabilities</string>
-    <string name="begDevQ1A2Answer"> Increases battery size</string>
+    <string name="begDevQ1A1Answer">Increases battery size </string>
+    <string name="begDevQ1A2Answer">C Fixes security vulnerabilities </string>
     <string name="begDevQ1A3Answer">Changes hardware components </string>
 
     <string name="begDevQ2A1Answer">C Detects and removes malware </string>

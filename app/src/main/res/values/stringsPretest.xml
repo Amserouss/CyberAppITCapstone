@@ -81,6 +81,10 @@
     <string name="preQ15A3Answer">Insecure design. (Correct answer)</string>
 
     <string name="submit_quiz">Submit Quiz</string>
+    <string name="feedback_beginner">You are at a Beginner Level</string>
+    <string name="feedback_intermediate">You are at a Intermediate Level</string>
+    <string name="feedback_advanced">You are at a Advanced Level</string>
+
 
     <!--    -->
 

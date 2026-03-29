@@ -217,8 +217,9 @@ public class PreTestHome extends AppCompatActivity {
                     public void onClick(View view) {
                         int score = calculateScore();
                         int total = questions.size();
+                        String difficulty = getDifficulty(score, total);
 
-                        goToResults(score, total, currentQuizTitle);
+                        goToResults(score, total, currentQuizTitle, difficulty);
 
                     }
                 });
@@ -249,6 +250,17 @@ public class PreTestHome extends AppCompatActivity {
 //                Toast.LENGTH_LONG).show();
         return score;
     }
+    private String getDifficulty(int score, int total) {
+        double percentage = (score * 100.0) / total;
+
+        if (percentage >= 80) {
+            return getString(R.string.feedback_advanced);
+        } else if (percentage >= 50) {
+            return getString(R.string.feedback_intermediate);
+        } else {
+            return getString(R.string.feedback_beginner);
+        }
+    }
 
 
     //5
@@ -271,7 +283,18 @@ public class PreTestHome extends AppCompatActivity {
                     question.getSelectedAnswer()).getId());
         }
     }
+    private void goToResults(int score, int totalQuestions, String quizTitle, String difficulty) { //this method version is just for pretesthome in order to determine difficulty of user
 
+        Intent intent = new Intent(PreTestHome.this, QuizResults.class);
+
+        intent.putExtra("SCORE", score);
+        intent.putExtra("TOTAL", totalQuestions);
+        intent.putExtra("QUIZ_TITLE", quizTitle);
+        intent.putExtra("DIFFICULTY", difficulty);
+
+        startActivity(intent);
+        finish();
+    }
     private void goToResults(int score, int totalQuestions, String quizTitle) {
 
         Intent intent = new Intent(PreTestHome.this, QuizResults.class);

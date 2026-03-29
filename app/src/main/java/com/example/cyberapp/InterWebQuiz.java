@@ -61,7 +61,7 @@ public class InterWebQuiz extends AppCompatActivity {
                         getString(R.string.interWebQ2A2Answer),
                         getString(R.string.interWebQ2A3Answer)
                 },
-                1
+                2
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -71,7 +71,7 @@ public class InterWebQuiz extends AppCompatActivity {
                         getString(R.string.interWebQ3A2Answer),
                         getString(R.string.interWebQ3A3Answer)
                 },
-                1
+                0
         ));
 
         questions.add(new QuizQuestionLogic(
@@ -91,7 +91,7 @@ public class InterWebQuiz extends AppCompatActivity {
                         getString(R.string.interWebQ5A3Answer),
                         getString(R.string.interWebQ5A1Answer),
                 },
-                1
+                0
         ));
 
         loadQuestion(currentIndex);//determine where this goes and update
