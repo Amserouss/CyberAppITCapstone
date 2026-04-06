@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="graphite">#363636</color>
-    <color name="orange">#B56740</color>
+    <color name="white">#E1E0E0</color>
+    <color name="true_white">#FFFFFF</color>
+    <color name="grey">#CBD2D0</color>
+    <color name="orange">#F9A620</color>
     <color name="sand">#BCB28A</color>
-    <color name="blue">#2D82B7</color>
+    <color name="blue">#365DD3</color>
+    <color name="red">#D7331D</color>
 </resources>
