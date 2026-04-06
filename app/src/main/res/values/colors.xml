@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="graphite">#363636</color>
+    <color name="orange">#B56740</color>
+    <color name="sand">#BCB28A</color>
+    <color name="blue">#2D82B7</color>
 </resources>
