@@ -13,6 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/returnButtonText"
+        android:fontFamily="@font/univers_75_black_regular"
+        android:backgroundTint="@color/red"
         android:onClick="buttonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,14 +24,28 @@
         app:layout_constraintVertical_bias="0.229"
 
         />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/shutter_aperture" />
 
 
     <Button
         android:id="@+id/cyberQuizBegId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/univers_75_black_regular"
+
         android:onClick="buttonClick"
         android:text="@string/cyberSecQuizTitle"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -44,6 +60,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonClick"
+        android:fontFamily="@font/univers_75_black_regular"
+
         android:text="@string/webQuizTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,6 +77,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/deviceQuizTitle"
+        android:fontFamily="@font/univers_75_black_regular"
+        android:backgroundTint="@color/orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -73,6 +93,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/beginnerTitle"
+        android:fontFamily="@font/univers_75_black_oblique"
+
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

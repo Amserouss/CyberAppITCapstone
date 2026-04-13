@@ -24,14 +24,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/webQuizTitle"
+                android:fontFamily="@font/univers_75_black_regular"
+
                 android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/quizDifficulty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="195dp"
+                android:layout_marginStart="155dp"
                 android:text="@string/advDifficulty"
+                android:fontFamily="@font/univers_75_black_regular"
+
                 android:textSize="16sp" />
 
 
@@ -39,6 +43,8 @@
 
         <TextView
             android:id="@+id/questionCounter"
+            android:fontFamily="@font/univers_75_black_regular"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Question 1 of 5"
@@ -77,13 +83,17 @@
             android:id="@+id/nextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
-            android:layout_marginStart="280dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/univers_75_black_regular"
 
-            android:layout_marginTop="24dp"/>
+            android:text="Next" />
 
         <Button
             android:id="@+id/submitButton"
+            android:fontFamily="@font/univers_75_black_regular"
+
+            android:backgroundTint="@color/orange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit " />
