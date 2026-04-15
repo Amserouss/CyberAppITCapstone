@@ -17,7 +17,7 @@
     </style>
     <style name="ShapeAppearance.CyberApp.Button" parent="">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">3dp</item>
+        <item name="cornerSize">20dp</item>
     </style>
 <!--    <style name="Theme.App.Starting" parent="Theme.SplashScreen">-->
 <!--        <item name="windowSplashScreenBackground">@color/grey</item>-->

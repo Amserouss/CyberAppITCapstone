@@ -29,15 +29,14 @@
         android:id="@+id/AdvQuiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/advanced"
+        android:backgroundTint="@color/blue"
         android:onClick="buttonClick"
-        android:backgroundTint="@color/orange"
+        android:text="@string/advanced"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723"
+        app:layout_constraintVertical_bias="0.865"
 
         />
 
@@ -45,15 +44,14 @@
         android:id="@+id/BegQuiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
         android:onClick="buttonClick"
         android:text="@string/beginner"
-        android:backgroundTint="@color/orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515"
+        app:layout_constraintVertical_bias="0.538"
 
         />
 
@@ -61,30 +59,29 @@
         android:id="@+id/InterQuiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/intermediate"
         android:onClick="buttonClick"
+        android:text="@string/intermediate"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.625"
+        app:layout_constraintVertical_bias="0.696"
 
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/true_white"
         android:text="@string/quizzes"
         android:textSize="30sp"
-        android:backgroundTint="@color/true_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.425" />
 
     <TextView
         android:id="@+id/textView"

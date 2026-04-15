@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/returnButtonText"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/orange"
         android:fontFamily="@font/univers_75_black_regular"
         android:onClick="buttonClick"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         android:onClick="buttonClick"
         android:text="@string/cyberSecQuizTitle"
         android:fontFamily="@font/univers_75_black_regular"
-
+        android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -49,7 +49,7 @@
         android:onClick="buttonClick"
         android:text="@string/webQuizTitle"
         android:fontFamily="@font/univers_75_black_regular"
-
+        android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,8 +63,9 @@
         android:id="@+id/devQuizAdvId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="buttonClick"
         android:text="@string/deviceQuizTitle"
-        android:backgroundTint="@color/orange"
+        android:backgroundTint="@color/red"
         android:fontFamily="@font/univers_75_black_regular"
 
         app:layout_constraintBottom_toBottomOf="parent"
