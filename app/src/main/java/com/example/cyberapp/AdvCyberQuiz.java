@@ -45,51 +45,51 @@ public class AdvCyberQuiz extends AppCompatActivity {
 
         // determine order for correct answer in each question
         questions.add(new QuizQuestionLogic(
-                getString(R.string.advWeb_question_1),
+                getString(R.string.advCyber_question_1),
                 new String[]{
-                        getString(R.string.advWebQ1A1Answer),
-                        getString(R.string.advWebQ1A2Answer),
-                        getString(R.string.advWebQ1A3Answer),
+                        getString(R.string.advCyberQ1A1Answer),
+                        getString(R.string.advCyberQ1A2Answer),
+                        getString(R.string.advCyberQ1A3Answer),
                 },
                 0 // correct answer index
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.advWeb_question_2),
+                getString(R.string.advCyber_question_2),
                 new String[]{
-                        getString(R.string.advWebQ2A1Answer),
-                        getString(R.string.advWebQ2A2Answer),
-                        getString(R.string.advWebQ2A3Answer)
+                        getString(R.string.advCyberQ2A1Answer),
+                        getString(R.string.advCyberQ2A2Answer),
+                        getString(R.string.advCyberQ2A3Answer)
                 },
                 1
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.advWeb_question_3),
+                getString(R.string.advCyber_question_3),
                 new String[]{
-                        getString(R.string.advWebQ3A1Answer),
-                        getString(R.string.advWebQ3A2Answer),
-                        getString(R.string.advWebQ3A3Answer)
+                        getString(R.string.advCyberQ3A1Answer),
+                        getString(R.string.advCyberQ3A2Answer),
+                        getString(R.string.advCyberQ3A3Answer)
                 },
                 0
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.advWeb_question_4),
+                getString(R.string.advCyber_question_4),
                 new String[]{
-                        getString(R.string.advWebQ4A1Answer),
-                        getString(R.string.advWebQ4A2Answer),
-                        getString(R.string.advWebQ4A3Answer)
+                        getString(R.string.advCyberQ4A1Answer),
+                        getString(R.string.advCyberQ4A2Answer),
+                        getString(R.string.advCyberQ4A3Answer)
                 },
                 2
         ));
 
         questions.add(new QuizQuestionLogic(
-                getString(R.string.advWeb_question_5),
+                getString(R.string.advCyber_question_5),
                 new String[]{
-                        getString(R.string.advWebQ5A2Answer),
-                        getString(R.string.advWebQ5A3Answer),
-                        getString(R.string.advWebQ5A1Answer),
+                        getString(R.string.advCyberQ5A2Answer),
+                        getString(R.string.advCyberQ5A3Answer),
+                        getString(R.string.advCyberQ5A1Answer),
                 },
                 0
         ));

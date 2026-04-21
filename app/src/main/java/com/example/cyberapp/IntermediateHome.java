@@ -29,13 +29,13 @@ public class IntermediateHome extends AppCompatActivity {
         int id = v.getId();
 
         if (id == R.id.webQuizInterId) {
-            intent = new Intent(this, BegWebQuiz.class);
+            intent = new Intent(this, InterWebQuiz.class);
 
         } else if (id == R.id.devQuizInterId) {
-            intent = new Intent(this, BegDevQuiz.class);
+            intent = new Intent(this, InterDevQuiz.class);
 
         } else if (id == R.id.cyberQuizInterId) {
-            intent = new Intent(this, BegCyberQuiz.class);
+            intent = new Intent(this, InterCyberQuiz.class);
 
         } else if (id == R.id.returnButtonId) {
             intent = new Intent(this, MainActivity.class);

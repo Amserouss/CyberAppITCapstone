@@ -23,7 +23,7 @@
                 android:id="@+id/quizTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/webQuizTitle"
+                android:text="@string/cyberSecQuizTitle"
                 android:fontFamily="@font/univers_75_black_regular"
 
                 android:textSize="16sp" />

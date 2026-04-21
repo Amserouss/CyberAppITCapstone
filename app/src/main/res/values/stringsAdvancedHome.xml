@@ -6,87 +6,87 @@
     <!--    -->
 
     <!--Strings related to beginner web quiz -->
-    <string name="advWeb_question_1">What is the primary purpose of a Content Security Policy </string>
-    <string name="advWeb_question_2">What is HTTPS role? </string>
-    <string name="advWeb_question_3">What is session hijacking? </string>
-    <string name="advWeb_question_4">What is HTTPS role? </string>
-    <string name="advWeb_question_5">What is safe behavior online? </string>
+    <string name="advWeb_question_1"> What is the primary purpose of a Content Security Policy </string>
+    <string name="advWeb_question_2"> What is HTTPS role? </string>
+    <string name="advWeb_question_3"> What is session hijacking? </string>
+    <string name="advWeb_question_4"> What is a tracking cookie risk? </string>
+    <string name="advWeb_question_5"> What is safe behavior online? </string>
 
     <string name="advWebQ1A1Answer"> Encrypt user passwords</string>
-    <string name="advWebQ1A2Answer">Prevent malicious scripts from executing in a web page C </string>
-    <string name="advWebQ1A3Answer">Store cookies securely </string>
+    <string name="advWebQ1A2Answer"> Prevent malicious scripts from executing in a web page  </string>
+    <string name="advWebQ1A3Answer"> Store cookies securely </string>
 
-    <string name="advWebQ2A1Answer">Stores data </string>
-    <string name="advWebQ2A2Answer">Encrypts web traffic C </string>
-    <string name="advWebQ2A3Answer">Prevents login </string>
+    <string name="advWebQ2A1Answer"> Stores data </string>
+    <string name="advWebQ2A2Answer"> Encrypts web traffic  </string>
+    <string name="advWebQ2A3Answer"> Prevents login </string>
 
-    <string name="advWebQ3A1Answer">Taking over active session C </string>
-    <string name="advWebQ3A2Answer">Logging out user </string>
-    <string name="advWebQ3A3Answer">Deleting cookies </string>
+    <string name="advWebQ3A1Answer"> Taking over active session  </string>
+    <string name="advWebQ3A2Answer"> Logging out user </string>
+    <string name="advWebQ3A3Answer"> Deleting cookies </string>
 
-    <string name="advWebQ4A1Answer">Deletes files </string>
-    <string name="advWebQ4A2Answer">Slows CPU </string>
-    <string name="advWebQ4A3Answer">Monitors user activity C </string>
+    <string name="advWebQ4A1Answer"> Deletes files </string>
+    <string name="advWebQ4A2Answer"> Slows CPU </string>
+    <string name="advWebQ4A3Answer"> Monitors user activity  </string>
 
-    <string name="advWebQ5A1Answer">Reuse passwords </string>
-    <string name="advWebQ5A2Answer">Avoid sharing sensitive info C </string>
-    <string name="advWebQ5A3Answer">Trust all websites </string>
+    <string name="advWebQ5A1Answer"> Reuse passwords </string>
+    <string name="advWebQ5A2Answer"> Avoid sharing sensitive info  </string>
+    <string name="advWebQ5A3Answer"> Trust all websites </string>
 
     <!--Strings related to Beginner Device quiz -->
 
-    <string name="advDev_question_1">What is the purpose of disk encryption? </string>
-    <string name="advDev_question_2">What is BIOS/UEFI role? </string>
-    <string name="advDev_question_3">What is privilege escalation? </string>
-    <string name="advDev_question_4">What is patch management? </string>
-    <string name="advDev_question_5">What is sandboxing? </string>
+    <string name="advDev_question_1"> What is the purpose of disk encryption? </string>
+    <string name="advDev_question_2"> What is BIOS/UEFI role? </string>
+    <string name="advDev_question_3"> What is privilege escalation? </string>
+    <string name="advDev_question_4"> What is patch management? </string>
+    <string name="advDev_question_5"> What is sandboxing? </string>
 
-    <string name="advDevQ1A1Answer">Increase storage capacity </string>
-    <string name="advDevQ1A2Answer">Protect data if the device is lost or stolen C </string>
-    <string name="advDevQ1A3Answer">Automatically back up files </string>
+    <string name="advDevQ1A1Answer"> Increase storage capacity </string>
+    <string name="advDevQ1A2Answer"> Protect data if the device is lost or stolen  </string>
+    <string name="advDevQ1A3Answer"> Automatically back up files </string>
 
-    <string name="advDevQ2A1Answer">Initializes hardware securely C </string>
-    <string name="advDevQ2A2Answer">Runs apps </string>
-    <string name="advDevQ2A3Answer">Stores files </string>
+    <string name="advDevQ2A1Answer"> Initializes hardware securely  </string>
+    <string name="advDevQ2A2Answer"> Runs apps </string>
+    <string name="advDevQ2A3Answer"> Stores files </string>
 
-    <string name="advDevQ3A1Answer">Updating OS </string>
-    <string name="advDevQ3A2Answer">Lowering permissions </string>
-    <string name="advDevQ3A3Answer">Gaining higher access C </string>
+    <string name="advDevQ3A1Answer"> Updating OS </string>
+    <string name="advDevQ3A2Answer"> Lowering permissions </string>
+    <string name="advDevQ3A3Answer"> Gaining higher access  </string>
 
-    <string name="advDevQ4A1Answer">Adding hardware </string>
-    <string name="advDevQ4A2Answer">Saving files </string>
-    <string name="advDevQ4A3Answer">Updating vulnerabilities c </string>
+    <string name="advDevQ4A1Answer"> Adding hardware </string>
+    <string name="advDevQ4A2Answer"> Saving files </string>
+    <string name="advDevQ4A3Answer"> Updating vulnerabilities  </string>
 
-    <string name="advDevQ5A1Answer">Backing up files </string>
-    <string name="advDevQ5A2Answer">Isolating programs C </string>
-    <string name="advDevQ5A3Answer">Encrypting disk </string>
+    <string name="advDevQ5A1Answer"> Backing up files </string>
+    <string name="advDevQ5A2Answer"> Isolating programs </string>
+    <string name="advDevQ5A3Answer"> Encrypting disk </string>
 
     <!--Strings related to Cyber Security Quiz -->
 
-    <string name="advCyber_question_1">What is cryptography? </string>
-    <string name="advCyber_question_2">Symmetric encryption? </string>
-    <string name="advCyber_question_3">Asymmetric encryption? </string>
-    <string name="advCyber_question_4">What is zero-day vulnerability? </string>
-    <string name="advCyber_question_5">What is penetration testing? </string>
+    <string name="advCyber_question_1"> What is cryptography? </string>
+    <string name="advCyber_question_2"> Symmetric encryption? </string>
+    <string name="advCyber_question_3"> Asymmetric encryption? </string>
+    <string name="advCyber_question_4"> What is zero-day vulnerability? </string>
+    <string name="advCyber_question_5"> What is penetration testing? </string>
 
-    <string name="advCyberQ1A1Answer">Securing data via encryption C </string>
-    <string name="advCyberQ1A2Answer">Compressing files </string>
-    <string name="advCyberQ1A3Answer">Monitoring users </string>
+    <string name="advCyberQ1A1Answer"> Securing data via encryption  </string>
+    <string name="advCyberQ1A2Answer"> Compressing files </string>
+    <string name="advCyberQ1A3Answer"> Monitoring users </string>
 
-    <string name="advCyberQ2A1Answer">Two different keys </string>
-    <string name="advCyberQ2A2Answer">Same key used C </string>
-    <string name="advCyberQ2A3Answer">Public only </string>
+    <string name="advCyberQ2A1Answer"> Two different keys </string>
+    <string name="advCyberQ2A2Answer"> Same key used  </string>
+    <string name="advCyberQ2A3Answer"> Public only </string>
 
-    <string name="advCyberQ3A1Answer">Public and private keys C </string>
-    <string name="advCyberQ3A2Answer">No encryption </string>
-    <string name="advCyberQ3A3Answer">Only passwords </string>
+    <string name="advCyberQ3A1Answer"> Public and private keys  </string>
+    <string name="advCyberQ3A2Answer"> No encryption </string>
+    <string name="advCyberQ3A3Answer"> Only passwords </string>
 
-    <string name="advCyberQ4A1Answer">Hardware issue </string>
-    <string name="advCyberQ4A2Answer">Backup error </string>
-    <string name="advCyberQ4A3Answer">Unknown/unpatched flaw C </string>
+    <string name="advCyberQ4A1Answer"> Hardware issue </string>
+    <string name="advCyberQ4A2Answer"> Backup error </string>
+    <string name="advCyberQ4A3Answer"> Unknown/unpatched flaw  </string>
 
-    <string name="advCyberQ5A1Answer">Data backup </string>
-    <string name="advCyberQ5A2Answer">Simulated attack testing C </string>
-    <string name="advCyberQ5A3Answer">Software install </string>
+    <string name="advCyberQ5A1Answer"> Data backup </string>
+    <string name="advCyberQ5A2Answer"> Simulated attack testing  </string>
+    <string name="advCyberQ5A3Answer"> Software install </string>
 
 
 

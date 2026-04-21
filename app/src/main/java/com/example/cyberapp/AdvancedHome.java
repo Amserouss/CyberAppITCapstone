@@ -29,13 +29,13 @@ public class AdvancedHome extends AppCompatActivity {
         int id = v.getId();
 
         if (id == R.id.webQuizAdvId) {
-            intent = new Intent(this, BegWebQuiz.class);
+            intent = new Intent(this, AdvWebQuiz.class);
 
         } else if (id == R.id.devQuizAdvId) {
-            intent = new Intent(this, BegDevQuiz.class);
+            intent = new Intent(this, AdvDevQuiz.class);
 
         } else if (id == R.id.cyberQuizAdvId) {
-            intent = new Intent(this, BegCyberQuiz.class);
+            intent = new Intent(this, AdvCyberQuiz.class);
 
         } else if (id == R.id.returnButtonId) {
             intent = new Intent(this, MainActivity.class);

@@ -7,87 +7,87 @@
     <!--    -->
 
     <!--Strings related to IntermediWhat is browser warning purpose?ate web quiz -->
-    <string name="interWeb_question_1">What indicates a phishing website? </string>
-    <string name="interWeb_question_2">Why avoid public Wi-Fi for sensitive tasks? </string>
-    <string name="interWeb_question_3">What is a secure habit online? </string>
-    <string name="interWeb_question_4">What is browser warning purpose? </string>
-    <string name="interWeb_question_5">What is social engineering? </string>
+    <string name="interWeb_question_1"> What indicates a phishing website? </string>
+    <string name="interWeb_question_2"> Why avoid public Wi-Fi for sensitive tasks? </string>
+    <string name="interWeb_question_3"> What is a secure habit online? </string>
+    <string name="interWeb_question_4"> What is browser warning purpose? </string>
+    <string name="interWeb_question_5"> What is social engineering? </string>
 
-    <string name="interWebQ1A1Answer">Slightly misspelled URL C </string>
-    <string name="interWebQ1A2Answer">Login form </string>
-    <string name="interWebQ1A3Answer">Fast load time </string>
+    <string name="interWebQ1A1Answer"> Slightly misspelled URL  </string>
+    <string name="interWebQ1A2Answer"> Login form </string>
+    <string name="interWebQ1A3Answer"> Fast load time </string>
 
-    <string name="interWebQ2A1Answer">Deletes files </string>
-    <string name="interWebQ2A2Answer">Slows device permanently </string>
-    <string name="interWebQ2A3Answer">Data can be intercepted C </string>
+    <string name="interWebQ2A1Answer"> Deletes files </string>
+    <string name="interWebQ2A2Answer"> Slows device permanently </string>
+    <string name="interWebQ2A3Answer"> Data can be intercepted  </string>
 
-    <string name="interWebQ3A1Answer">Logging out of shared devices C </string>
+    <string name="interWebQ3A1Answer"> Logging out of shared devices  </string>
     <string name="interWebQ3A2Answer"> Using public computers often</string>
-    <string name="interWebQ3A3Answer">Saving passwords everywhere </string>
+    <string name="interWebQ3A3Answer"> Saving passwords everywhere </string>
 
-    <string name="interWebQ4A1Answer">Save data </string>
-    <string name="interWebQ4A2Answer">Alert unsafe sites C </string>
-    <string name="interWebQ4A3Answer">Block ads </string>
+    <string name="interWebQ4A1Answer"> Save data </string>
+    <string name="interWebQ4A2Answer"> Alert unsafe sites  </string>
+    <string name="interWebQ4A3Answer"> Block ads </string>
 
-    <string name="interWebQ5A1Answer">Encrypting data </string>
-    <string name="interWebQ5A2Answer">Manipulating people for info C </string>
-    <string name="interWebQ5A3Answer">Speeding networks </string>
+    <string name="interWebQ5A1Answer"> Encrypting data </string>
+    <string name="interWebQ5A2Answer"> Manipulating people for info  </string>
+    <string name="interWebQ5A3Answer"> Speeding networks </string>
 
     <!--Strings related to Intermediate Device quiz -->
 
-    <string name="interDev_question_1">What does a firewall do? </string>
-    <string name="interDev_question_2">What is secure password storage? </string>
-    <string name="interDev_question_3">Why avoid unknown USB drives? </string>
-    <string name="interDev_question_4">What is OS role in security? </string>
-    <string name="interDev_question_5">What is software vulnerability? </string>
+    <string name="interDev_question_1"> What does a firewall do? </string>
+    <string name="interDev_question_2"> What is secure password storage? </string>
+    <string name="interDev_question_3"> Why avoid unknown USB drives? </string>
+    <string name="interDev_question_4"> What is OS role in security? </string>
+    <string name="interDev_question_5"> What is software vulnerability? </string>
 
-    <string name="interDevQ1A1Answer">Cools system </string>
-    <string name="interDevQ1A2Answer">Controls network traffic C </string>
-    <string name="interDevQ1A3Answer">Stores data </string>
+    <string name="interDevQ1A1Answer"> Cools system </string>
+    <string name="interDevQ1A2Answer"> Controls network traffic  </string>
+    <string name="interDevQ1A3Answer"> Stores data </string>
 
-    <string name="interDevQ2A1Answer">Using a password manager C </string>
-    <string name="interDevQ2A2Answer">Using same password </string>
-    <string name="interDevQ2A3Answer">Saving in notes app </string>
+    <string name="interDevQ2A1Answer"> Using a password manager  </string>
+    <string name="interDevQ2A2Answer"> Using same password </string>
+    <string name="interDevQ2A3Answer"> Saving in notes app </string>
 
-    <string name="interDevQ3A1Answer">May break screen </string>
-    <string name="interDevQ3A2Answer">May slow internet </string>
-    <string name="interDevQ3A3Answer">May contain malware C </string>
+    <string name="interDevQ3A1Answer"> May break screen </string>
+    <string name="interDevQ3A2Answer"> May slow internet </string>
+    <string name="interDevQ3A3Answer"> May contain malware  </string>
 
-    <string name="interDevQ4A1Answer">Adds storage </string>
-    <string name="interDevQ4A2Answer">Manages system protections C </string>
-    <string name="interDevQ4A3Answer">Increases Wi-Fi speed </string>
+    <string name="interDevQ4A1Answer"> Adds storage </string>
+    <string name="interDevQ4A2Answer"> Manages system protections  </string>
+    <string name="interDevQ4A3Answer"> Increases Wi-Fi speed </string>
 
-    <string name="interDevQ5A1Answer">Weakness attackers exploit C </string>
-    <string name="interDevQ5A2Answer">Internet setting </string>
-    <string name="interDevQ5A3Answer">Backup system </string>
+    <string name="interDevQ5A1Answer"> Weakness attackers exploit  </string>
+    <string name="interDevQ5A2Answer"> Internet setting </string>
+    <string name="interDevQ5A3Answer"> Backup system </string>
 
     <!--Strings related to Intermediate Cyber Security Quiz -->
 
-    <string name="interCyber_question_1">What is VPN purpose? </string>
-    <string name="interCyber_question_2">What is brute force attack? </string>
-    <string name="interCyber_question_3">What is hashing? </string>
-    <string name="interCyber_question_4">What is authentication? </string>
-    <string name="interCyber_question_5">What is malware example? </string>
+    <string name="interCyber_question_1"> What is VPN purpose? </string>
+    <string name="interCyber_question_2"> What is brute force attack? </string>
+    <string name="interCyber_question_3"> What is hashing? </string>
+    <string name="interCyber_question_4"> What is authentication? </string>
+    <string name="interCyber_question_5"> What is malware example? </string>
 
-    <string name="interCyberQ1A1Answer">Store files </string>
-    <string name="interCyberQ1A2Answer">Encrypt connection C </string>
-    <string name="interCyberQ1A3Answer">Scan malware </string>
+    <string name="interCyberQ1A1Answer"> Store files </string>
+    <string name="interCyberQ1A2Answer"> Encrypt connection  </string>
+    <string name="interCyberQ1A3Answer"> Scan malware </string>
 
-    <string name="interCyberQ2A1Answer">Trying many passwords until a hacker gains access C </string>
-    <string name="interCyberQ2A2Answer">Encrypting data </string>
-    <string name="interCyberQ2A3Answer">Backing up files </string>
+    <string name="interCyberQ2A1Answer"> Trying many passwords until a hacker gains access  </string>
+    <string name="interCyberQ2A2Answer"> Encrypting data </string>
+    <string name="interCyberQ2A3Answer"> Backing up files </string>
 
-    <string name="interCyberQ3A1Answer">Encryption method reversible </string>
-    <string name="interCyberQ3A2Answer">Data deletion </string>
-    <string name="interCyberQ3A3Answer">One-way data conversion C </string>
+    <string name="interCyberQ3A1Answer"> Encryption method reversible </string>
+    <string name="interCyberQ3A2Answer"> Data deletion </string>
+    <string name="interCyberQ3A3Answer"> One-way data conversion  </string>
 
-    <string name="interCyberQ4A1Answer">Encrypting storage </string>
-    <string name="interCyberQ4A2Answer">Verifying identity through various means C </string>
-    <string name="interCyberQ4A3Answer">Saving data </string>
+    <string name="interCyberQ4A1Answer"> Encrypting storage </string>
+    <string name="interCyberQ4A2Answer"> Verifying identity through various means  </string>
+    <string name="interCyberQ4A3Answer"> Saving data </string>
 
-    <string name="interCyberQ5A1Answer">Firewall </string>
-    <string name="interCyberQ5A2Answer">VPN </string>
-    <string name="interCyberQ5A3Answer">Ransomware C </string>
+    <string name="interCyberQ5A1Answer"> Firewall </string>
+    <string name="interCyberQ5A2Answer"> VPN </string>
+    <string name="interCyberQ5A3Answer"> Ransomware  </string>
 
     <!--    -->
 
